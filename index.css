@@ -1,0 +1,51 @@
+body{
+    background-image: url('./game.jpg');
+}
+.heading{
+    color: lightblue;
+    text-shadow: 5px 5px 5px blue;
+    text-align: center;
+    font-size: 50px;
+}
+.container{
+    margin-top: 40px;
+    display:flex;
+    flex-direction:column;
+}
+.nameboxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#box1{
+    margin:10px;
+    height:260px;
+    width:200px;
+    background: linear-gradient(to right,#0b8793,#360033);
+    box-shadow: 2px 2px 12px 2px blue;
+    border-radius: 5px;
+}
+#box2{
+    margin:10px;
+    height:260px;
+    width:200px;
+    background: linear-gradient(to right,#0b8793,#360033);
+    box-shadow: 2px 2px 12px 2px blue;
+    border-radius: 5px;
+}
+.start{
+    width:420px;
+    height:40px;
+    border-radius: 5px;
+    font-size:15px;
+}
+.start:hover{
+    width:430px;
+    height:45px;
+    font-size: 17px;
+    cursor:pointer;
+}
+.buttoncontainer{
+    display: flex;
+    justify-content: center;
+}
