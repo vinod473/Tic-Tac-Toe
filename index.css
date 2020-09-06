@@ -1,5 +1,5 @@
 body{
-    background-image: url('./game.jpg');
+    background-image: url('./images/game.jpg');
 }
 .heading{
     color: lightblue;
@@ -17,35 +17,42 @@ body{
     flex-direction: row;
     justify-content: center;
 }
-#box1{
+#box{
     margin:10px;
     height:260px;
     width:200px;
     background: linear-gradient(to right,#0b8793,#360033);
     box-shadow: 2px 2px 12px 2px blue;
     border-radius: 5px;
-}
-#box2{
-    margin:10px;
-    height:260px;
-    width:200px;
-    background: linear-gradient(to right,#0b8793,#360033);
-    box-shadow: 2px 2px 12px 2px blue;
-    border-radius: 5px;
+    padding:10px;
 }
 .start{
-    width:420px;
+    width:465px;
     height:40px;
     border-radius: 5px;
     font-size:15px;
 }
 .start:hover{
-    width:430px;
-    height:45px;
+    width:470px;
+    height:42px;
     font-size: 17px;
     cursor:pointer;
 }
 .buttoncontainer{
     display: flex;
     justify-content: center;
+}
+.player{
+    font-style: "Lato", sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+input{
+    margin-top: 10px;
+    width:190px;
+    font-weight: bold;
+    height:25px;
 }
